@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppContext.class);
 		Greeter g = ctx.getBean("greeter", Greeter.class);
-		String msg = g.greet("Git222");
+		String msg = g.greet("Git444");
 		System.out.println(msg);
 		ctx.close();
 	}
